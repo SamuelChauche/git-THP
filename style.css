@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1{
+    color: red
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    background-color: #FFFFFF;
+}
+
+.top-left a{
+    height: 100px;
+    margin-left: 500px;
+    padding: 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #343536;
+    font-size: 14px;
+    
+}
+.top-right a {
+    margin-left: 15px;
+    padding: 6px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #343536;
+    font-size: 14px;
+    
+}
+
+.top-right img {
+    margin-left: 15px;
+    clip-path:ellipse(50% 50%)
+    
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+ 
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.header img {
+    margin-bottom: 20px;
+
+}
+
+.pillule {
+    display: flex;
+    justify-content: space-evenly;
+        width: 30%; 
+        height: 50px; 
+        padding: 10px;
+        font-size: 18px; 
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        box-shadow: 0 4px 8px 0 #5c5c5c33, 0 6px 20px 0 #00000030;
+}
+
+.rechercheimg {
+    width: 100%;
+    height: auto;
+    align-items: self-start;
+    object-fit: contain;
+}
+
+.right-logo{
+    width: 20%;
+    max-width: 20%;
+    align-items: end;
+    object-fit: contain;
+}
+
+.logomicro{
+    width: 20%;
+    align-items: end;
+    object-fit: contain;
+}
+
+.logoglens{
+    width: 20%;
+    align-items: end;
+    object-fit: contain;
+}
+
+.pillule:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.search-button, .lucky-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+.search-button:hover, .lucky-button:hover {
+    background-color: #e9e9e9;
+}
+
+footer {
+    margin-top: auto;
+    padding: 20px;
+    background-color: #FFFFFF;
+    width: auto;
+    border-top: 1px solid #ccc;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center; 
+}
+
+.footer ul li a {
+    color: #777;
+    text-decoration: none;
+    border: #000;
+    border-width: 1px;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
